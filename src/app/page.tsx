@@ -382,7 +382,7 @@ export default function Home() {
                 <ContactInfo
                   icon="email"
                   title="Email"
-                  text="admin@theforwardalpha.com"
+                  text="theforwardalpha@gmail.com"
                 />
                 <ContactInfo
                   icon="web"
@@ -527,7 +527,7 @@ export default function Home() {
             </div>
             <div>
               <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">Contact</h4>
-              <p className="text-gray-400 text-sm sm:text-base">admin@theforwardalpha.com</p>
+              <p className="text-gray-400 text-sm sm:text-base">theforwardalpha@gmail.com</p>
               <p className="text-gray-400 text-sm sm:text-base">theforwardalpha.com</p>
             </div>
           </div>
