@@ -317,6 +317,18 @@ export default function Home() {
               link="https://theforwardalpha.com/tracit/"
               image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
             />
+            <PortfolioCard
+              title="Let's Serve"
+              description="A community platform bringing people together to serve and make a difference. Let's Serve Together."
+              link="https://letsserve.org"
+              image="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&q=80"
+            />
+            <PortfolioCard
+              title="Cuddly Cove"
+              description="Subscription box service for parents featuring organic baby clothing, Montessori toys, and curated books for infants and toddlers."
+              link="https://cuddlycove.com"
+              image="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&q=80"
+            />
           </div>
         </div>
       </section>
@@ -334,7 +346,7 @@ export default function Home() {
               <div className="text-primary-100 text-sm sm:text-base mt-1">Support</div>
             </div>
             <div>
-              <div className="text-3xl sm:text-5xl font-bold text-accent-400">3+</div>
+              <div className="text-3xl sm:text-5xl font-bold text-accent-400">5+</div>
               <div className="text-primary-100 text-sm sm:text-base mt-1">Products</div>
             </div>
             <div>
@@ -498,8 +510,13 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://theforwardalpha.com/tracit/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
-                    Tracit
+                  <a href="https://letsserve.org" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
+                    Let&apos;s Serve
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cuddlycove.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
+                    Cuddly Cove
                   </a>
                 </li>
               </ul>
