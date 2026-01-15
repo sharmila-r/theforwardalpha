@@ -395,7 +395,11 @@ export default function Home() {
               <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Send Us a Message
               </h3>
-              <form className="space-y-4 sm:space-y-5">
+              <form
+                action="https://formspree.io/f/maqqnvda"
+                method="POST"
+                className="space-y-4 sm:space-y-5"
+              >
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-1.5 sm:mb-2">
                     Full Name
@@ -432,12 +436,12 @@ export default function Home() {
                     placeholder="Tell us about your project..."
                   ></textarea>
                 </div>
-                <a
-                  href="mailto:admin@theforwardalpha.com"
-                  className="btn-shine w-full bg-gradient-to-r from-primary-500 to-primary-600 text-white px-6 py-3 sm:py-4 rounded-lg sm:rounded-xl text-base sm:text-lg font-semibold hover:shadow-lg hover:shadow-primary-500/30 transition-all duration-300 flex items-center justify-center"
+                <button
+                  type="submit"
+                  className="btn-shine w-full bg-gradient-to-r from-primary-500 to-primary-600 text-white px-6 py-3 sm:py-4 rounded-lg sm:rounded-xl text-base sm:text-lg font-semibold hover:shadow-lg hover:shadow-primary-500/30 transition-all duration-300"
                 >
                   Send Message
-                </a>
+                </button>
               </form>
             </div>
           </div>
