@@ -300,6 +300,24 @@ export default function Home() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             <PortfolioCard
+              title="Kaavala"
+              description="Women's safety app with SOS alerts, volunteer network, and real-time location sharing for emergency situations."
+              link="https://getkaavala.com"
+              image="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+            />
+            <PortfolioCard
+              title="Janakural"
+              description="Public grievance management platform enabling citizens to report local issues with photo evidence and track resolution."
+              link="https://janakural.com"
+              image="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=80"
+            />
+            <PortfolioCard
+              title="TVK Admin Portal"
+              description="Comprehensive admin dashboard for managing volunteers, issues, events, and booth operations across Tamil Nadu."
+              link="https://tvk.theforwardalpha.com"
+              image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80"
+            />
+            <PortfolioCard
               title="Fridge2Frame"
               description="Transform your cherished photos into beautiful framed memories with our innovative platform."
               link="https://fridge2frame.com"
@@ -312,22 +330,10 @@ export default function Home() {
               image="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80"
             />
             <PortfolioCard
-              title="Tracit"
-              description="Advanced tracking and management solution designed for modern businesses."
-              link="https://theforwardalpha.com/tracit/"
-              image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
-            />
-            <PortfolioCard
               title="Let's Serve"
               description="A community platform bringing people together to serve and make a difference. Let's Serve Together."
               link="https://letsserve.org"
               image="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&q=80"
-            />
-            <PortfolioCard
-              title="Cuddly Cove"
-              description="Subscription box service for parents featuring organic baby clothing, Montessori toys, and curated books for infants and toddlers."
-              link="https://cuddlycove.com"
-              image="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=600&q=80"
             />
           </div>
         </div>
@@ -346,7 +352,7 @@ export default function Home() {
               <div className="text-primary-100 text-sm sm:text-base mt-1">Support</div>
             </div>
             <div>
-              <div className="text-3xl sm:text-5xl font-bold text-accent-400">5+</div>
+              <div className="text-3xl sm:text-5xl font-bold text-accent-400">8+</div>
               <div className="text-primary-100 text-sm sm:text-base mt-1">Products</div>
             </div>
             <div>
@@ -504,23 +510,23 @@ export default function Home() {
               <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">Portfolio</h4>
               <ul className="space-y-2 sm:space-y-3">
                 <li>
+                  <a href="https://getkaavala.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
+                    Kaavala
+                  </a>
+                </li>
+                <li>
+                  <a href="https://janakural.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
+                    Janakural
+                  </a>
+                </li>
+                <li>
+                  <a href="https://tvk.theforwardalpha.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
+                    TVK Admin
+                  </a>
+                </li>
+                <li>
                   <a href="https://fridge2frame.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
                     Fridge2Frame
-                  </a>
-                </li>
-                <li>
-                  <a href="https://schools.fridge2frame.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
-                    Fridge2Frame Schools
-                  </a>
-                </li>
-                <li>
-                  <a href="https://letsserve.org" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
-                    Let&apos;s Serve
-                  </a>
-                </li>
-                <li>
-                  <a href="https://cuddlycove.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition text-sm sm:text-base">
-                    Cuddly Cove
                   </a>
                 </li>
               </ul>
