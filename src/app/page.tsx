@@ -309,7 +309,7 @@ export default function Home() {
               title="Janakural"
               description="Public grievance management platform enabling citizens to report local issues with photo evidence and track resolution."
               link="https://janakural.com"
-              image="/images/janakural-hero.jpg"
+              image="/images/janakural-hero.jpeg"
             />
             <PortfolioCard
               title="TVK Admin Portal"
