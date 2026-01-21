@@ -303,13 +303,13 @@ export default function Home() {
               title="Kaavala"
               description="Women's safety app with SOS alerts, volunteer network, and real-time location sharing for emergency situations."
               link="https://getkaavala.com"
-              image="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80"
+              image="/images/kaavala-hero.jpg"
             />
             <PortfolioCard
               title="Janakural"
               description="Public grievance management platform enabling citizens to report local issues with photo evidence and track resolution."
               link="https://janakural.com"
-              image="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=80"
+              image="/images/janakural-hero.jpg"
             />
             <PortfolioCard
               title="TVK Admin Portal"
